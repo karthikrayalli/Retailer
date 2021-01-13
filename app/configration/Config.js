@@ -25,7 +25,7 @@ myAwesomeArray : [
     return (
   
       <View style={styles.MainContainer}>
-         <Text>{this.state.days[i]}</Text>
+         
          
       </View>//here only one value is
     );
