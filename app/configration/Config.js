@@ -20,7 +20,7 @@ myAwesomeArray : [
     }
 
   render(){
-  for (let i = 0;i < this.state.days.length;i++)
+
   //Here all the values are executing
     return (
   
