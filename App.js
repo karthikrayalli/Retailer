@@ -16,12 +16,15 @@ import {
   StatusBar,
 } from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
+import DrawerNavigator from './app/Navigation/DrawerNavigator'
 import Config from './app/configration/Config';
 import Sync from './app/Sync';
 
 const App = () => {
   return (
-    <Config/>
+    <NavigationContainer>
+      <DrawerNavigator/>
+    </NavigationContainer>
       
   );
 };
